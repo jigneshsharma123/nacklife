@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Image Slider</title>
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <!-- external CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- css cdn for icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="discount-wraper">
+    <p>Get 10% off on your first order! Use the code 'Welcome10'.</p>
+  </div>
+
+  <!-- markup for sticky navigation  -->
+  <header id="header">
+    <!-- Naked Philosophy
+         Naked Research
+    -->
+    <!--      -->
+    <ul id="nav-menu">
+      <li><a href="#">Shop Now</a></li>
+      <li><a href="#">Health Experts</a></li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Nacked Way
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Naked Philosophy</a>
+            <a href="#">Naked Research</a>
+
+          </div>
+        </div>
+
+      </li>
+      <!-- Nack Journals -->
+
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Nack Journals
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Community</a>
+            <a href="#">Mental Wellbeing</a>
+            <a href="#">Recipes</a>
+
+            <a href="#">Health and Fitness</a>
+
+
+          </div>
+        </div>
+      </li>
+
+    </ul>
+    
+    <!-- end of the desktop nav bar  -->
+ <!-- begininig of the mobile nav bar  -->
+  
+ <!-- end of the mobiel nav bar  -->
+  <div id="hamburger">
+      <i class="fa fa-tasks"></i>
+  </div>
+
+  <div class="mob-nav-container" id="mob-container">
+   <div class="menu">
+    <a href="#">Shop Now</a>
+    <a href="#">Health Experts</a>
+    <a href="#">Naked Way <i class="fa fa-arrow-right"></i></a>
+    <a href="#">Nack Journals <i class="fa fa-arrow-right"></i></a>
+    <a href="#">About Us</a>
+   </div>
+  </div> <!-- end of the mobile nav container -->
+
+
+    <div class="logo">
+      <h1>Nack</h1>
+    </div>
+
+    <div class="user-cradential-container">
+      <span class="material-symbols-outlined">
+        person
+      </span>
+      <span class="material-symbols-outlined">
+        shopping_cart
+      </span>
+    </div>
+
+
+ <!-- end of the mobile nav bar  -->
+  </header>
+  
+ <!-- end of the desktop nav bar and starting of the mobile nav bar  -->
+
+
+ 
+
+
+
+
+  <section class="main swiper mySwiper banner">
+    <div class="wrapper swiper-wrapper">
+      <div class="slide swiper-slide">
+        <img src="images/img1.jpg" alt="" class="image photo1" class="M-hidden"/>
+        <img src="images/mobilebanner_780x.jpg" alt="" class="image photo3" class="M-visible" />
+        
+        <div class="image-data">
+          <h2>Rapid recovery. Effective hydration</h2>
+          <span class="text">
+            Boost performance and hydration with a unique blend of full-spectrum Essential Amino Acids and electrolytes</span>
+          <h2></h2>
+          <a href="#" class="button">About Us</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="images/img2.jpg" alt="" class="image photo2" class="M-hidden"/>
+        <img src="images/YOGA_DAY_journal_Mobile_780x.jpg" alt="" class="image photo3" class="M-visible" />
+        
+        <div class="image-data">
+          <h2>Beyond the Yoga Mat</h2>
+          <span class="text">
+            Yoga practitioners and trainers share the benefits of Yoga on and off the mat</span>
+          <h2></h2>
+          <a href="#" class="button">About Us</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="images/img3.jpg" alt="" class="image photo3" class="M-hidden"/>
+        <img src="images/Carousel_Web_Banner_img-02_780x.jpg" alt="" class="image photo3" class="M-visible" />
+
+
+        <div class="image-data">
+          <h2>Stronger Than The Summer Sun!</h2>
+          <span class="text">Protect your skin from the harmful UV rays this summer <br>
+            with nature's strongest antioxidant - Astaxanthin.
+            </span>
+          <h2></h2>
+          <a href="#" class="button">Show Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+
+ <!-- second slider -->
+ <div class="container swiper">
+    <div class="Descripter">
+        <strong>HONEST. CLEAN. NATURAL.</strong><br>
+        <span>Choose Your Favourite</span>
+    </div>
+  <div class="slide-container">
+
+    <div class="card-wrapper swiper-wrapper">
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://nack.life/cdn/shop/files/choose_your_fav_410x.jpg?v=1682330570" alt="" />
+          <h4 style="position: absolute; top:75%; left:50%;transform:translate(-50%, 5%)">WHEY PROTEIN</h4>
+       
+        </div>
+
+        <div class="profile-details">
+          <!-- <img src="https://nack.life/cdn/shop/files/nack-astaxanthin-antioxidant-immunity-boost-1-min_410x.jpg?v=1656933817" alt="" />
+           -->
+          <div class="name-job">
+            <h3 class="name"></h3>
+            <h4 class="job"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://nack.life/cdn/shop/files/vegan-plant-protein-powder-nack-india-min_750x_1000x_9fe870d1-dcb5-439f-a696-2219a36f7fca_410x.webp?v=1656932664" alt="" />
+          <h4 style="position: absolute; top:75%; left:50%;transform:translate(-50%, 5%)">PLANT PROTEIN</h4>
+       
+        </div>
+        <div class="profile-details">
+         
+          <div class="name-job">
+            <h3 class="name"></h3>
+            <h4 class="job"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://nack.life/cdn/shop/files/tsk_home_page_1_410x.jpg?v=1680075128" alt="" />
+          <h4 style="position: absolute; top:75%; left:50%;transform:translate(-50%, 5%)">STRONG KIT</h4>
+       
+        </div>
+        <div class="profile-details">
+        
+          <div class="name-job">
+            <h3 class="name"></h3>
+            <h4 class="job"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://nack.life/cdn/shop/files/nack-astaxanthin-antioxidant-immunity-boost-1-min_410x.jpg?v=1656933817" alt="" />
+          <h4 style="position: absolute; top:75%; left:50%;transform:translate(-50%, 5%)">IMMUNITY BOOST</h4>
+       
+        </div>
+        <div class="profile-details">
+        
+          <div class="name-job">
+            <h3 class="name"></h3>
+            <h4 class="job"></h4>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="swiper-button-next swiper-navBtn"></div>
+  <div class="swiper-button-prev swiper-navBtn"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<!-- section for the img and text -->
+<!-- first img with left text and right img  -->
+
+
+<section class="section1">
+ <div class="protector">
+  <div class="text-container box1">
+    <h5>EAA+ELECTROLYTES</h5>
+    <H1>Essential Fuel With Hydrating Electrolytes</H1>
+   <p>A potent blend of EAAs with 3.5g leucine per serving, and highly bioavailable electrolytes in pocket-sized sachets - convenient and effective fuel to maximise your performance and hydration.
+ 
+   </p>
+   <div class="btn">READ MORE</div>
+       
+  </div>
+  <div class="img-container box2">
+   <img src="https://nack.life/cdn/shop/files/EAA_Home_page_500x.jpg?v=1692272449" alt="">
+  </div> <!-- end of the box 2 -->
+ </div> <!-- end of the protector1 -->
+</section>
+
+
+<!-- going to create markup for right text and left img  -->
+<!-- second img and text section  -->
+<section class="section2">
+
+  <div class="protector2">
+    <div class="box3">
+      <img src="https://nack.life/cdn/shop/files/Home_Page_Image-2_500x.jpg?v=1682403841" alt="">
+    </div><!-- end of box3 -->
+    <div class="box4">
+        <h5>WHEY PROTEIN</h5>
+        <h1>Developed By Sports Nutrition Experts</h1>
+        <p>Näck’s Whey Protein is expertly formulated to fuel your workouts, boost muscle growth, enhance recovery and support weight management.</p>
+    <div class="btn">READ MORE</div>
+      </div> <!-- end of the box4 -->
+
+  </div> <!-- end of the protector 2 -->
+
+</section>
+
+<!-- third img and text section image -->
+<section class="section1">
+  <div class="protector">
+   <div class="text-container box1" id="col"style="background-color:blanchedalmond; padding:10px 40px;">
+     <h5>PLANT PROTEIN POWDER</h5>
+     <H1>Perfectly Balanced Amino Acids</H1>
+    <p id="visible">Our 100% plant based powder is formulated to fuel your body with pure protein. By blending naturally sourced yellow peas with whole grain rice, this formula provides a complete essential amino acid profile.
+    </p>
+    <div class="btn">READ MORE</div>
+        
+   </div>
+   <div class="img-container box2">
+    <img src="https://nack.life/cdn/shop/files/Nack_campaign_20220751_x730.jpg?v=1657707413" alt="">
+   </div> <!-- end of the box 2 -->
+  </div> <!-- end of the protector1 -->
+ </section>
+ 
+ <!-- fourth img and text section  -->
+ <!-- <section class="section1">
+  <div class="protector">
+   <div class="text-container box1">
+     
+   </div>
+   <div class="img-container box2">
+    <img src="https://nack.life/cdn/shop/files/nack-astaxanthin-homepage_500x.webp?v=1688669247" alt="">
+   </div> end of the box 2 -->
+  <!-- </div> end of the protector1 -->
+ <!-- </section> -->
+
+<!-- fourth section with img and text -->
+ <section class="section2">
+
+  <div class="protector2">
+    <div class="box3">
+      <img src="https://nack.life/cdn/shop/files/nack-astaxanthin-homepage_500x.webp?v=1688669247" alt="">
+    </div><!-- end of box3 -->
+    <div class="box4">
+      <h5>IMMUNITY BOOST</h5>
+      <H1>Nature's Strongest Antioxidant</H1>
+     <p>Boost your immune system with natures most powerful antioxidant, Astaxanthin. Its unique and strong cellular protection capacity allows it to protect each cell against free radicals and oxidative stress.
+ 
+     </p>
+     <div class="btn">READ MORE</div>
+         
+      </div> <!-- end of the box4 -->
+
+  </div> <!-- end of the protector 2 -->
+
+</section>
+
+<!-- fifth section with img and text -->
+<!-- last not img only text  -->
+
+
+
+
+<!-- end of the img and txt section  -->
+<section class="section1">
+  <div class="protector">
+   <div class="text-container box1">
+     <h5>HEALTH COACHES</h5>
+     <H1>Meet Our Experts</H1>
+    <p id="visible">Searching for an expert within nutrition, fitness or mental health? Look no further. Our best in class experts are just one click away and ready to support you from the comfort of your home.
+    </p>
+    <div class="btn">READ MORE</div>
+        
+   </div> 
+   <div class="img-container box2">
+    <img src="https://nack.life/cdn/shop/files/meet-our-health-experts-at-nack-india_x600.webp?v=1688669553" alt="">
+   </div> <!-- end of the box 2 -->
+  </div> <!-- end of the protector1 -->
+ </section>
+
+<!-- end of the fifth section  -->
+
+
+
+
+
+
+
+<!-- end of the section img and text -->
+
+<!-- cards  -->
+<div class="card-container">
+  <div class="card">
+      <img src="https://nack.life/cdn/shop/files/mobilecovern_533x.jpg?v=1690888748" alt="Image 1">
+      
+      <p>Running is more than just putting one foot in front of the other; it's a journey of self-discovery, endurance, and empowerment.</p>
+      <a href="#">Read More</a>
+  </div>
+  <div class="card">
+      <img src="https://nack.life/cdn/shop/files/yoga-day-journal-mobile_533x.jpg?v=1687346277" alt="Image 2">
+       <p>Content warning: The following article mentions mental illness and eating disorders. We associate Yoga with physical postures, breathing </p>
+      <a href="#">Read More</a>
+  </div>
+  <div class="card">
+      <img src="https://nack.life/cdn/shop/files/passion-for-progress-mobile_533x.jpg?v=1685531708" alt="Image 3">
+      
+    <p>How many of us, at some point in our lives, believed that success and greatness belong to the few gifted ones? That there are prerequisites to greatness some people are just born with. When you listen to the great ones though, you realise they were once ordinary.</p>
+      <a href="#">Read More</a>
+  </div>
+</div>
+
+
+
+<!-- footer section -->
+
+<footer class="footer">
+  <div class="footer-logo">
+      <h1>Nack</h1>
+  </div>
+  <div class="footer-social">
+      <a href="#" class="social-icon fa fa-facebook"></a>
+      <a href="#" class="social-icon fa fa-twitter"></a>
+      <a href="#" class="social-icon fa fa-instagram"></a>
+  </div>
+  <div class="footer-links">
+      <a href="#">Help</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Shipping</a>
+      <a href="#">Nack Active</a>
+      <a href="#">Nack Beauty</a>
+      <a href="#">Nack Health 8</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Refound Policy</a>
+      
+  </div>
+  <div class="footer-contact">
+      <p></p>
+      <input type="email" placeholder="Stay in touch:">
+      <button>Join Now</button>
+  </div>
+</footer>
+
+<div class="copyright">
+  
+  © 2023 Näck RIGHTS RESERVED.
+</div>
+
+
+  <!-- javaScript section  -->
+
+  <!-- Swiper JS -->
+  <script src="JS/swiper-bundle.min.js"></script>
+  <!-- extern .js -->
+  <script src="main.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    var swiper = new Swiper(".slide-container", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  sliderPerGroup: 4,
+  loop: true,
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1000: {
+      slidesPerView: 4,
+    },
+  },
+});
+  </script>
+</body>
+
+</html>
